@@ -12,31 +12,12 @@
 <body>
     <h1>Test Project for working with <a href="https://parceljs.org/">Parcel.js</a></h1>
 
-    <ol>
-        <li>Run `npm init -y` to setup Node Package Manager and create the packages.json file.</li>
-        <li>Run `npm install parcel --save-dev` to install parcel locally. 
-            This is a better option than gobal because you're kind of self-documenting the dependency in packags.json for other project developers.
-        </li>
-        <li>Create your site code code that need to compile.</li>
-        <li>Run `parcel server src/index.html` from the terminal.
-            Nope, that doesn't work when installed locally. So go to the next step
-        </li>
-        <li>So add the "dev" and "test" scripts you'll see in the package.json file. 
-            Then you just need to run `npm run dev` in development to build the site and setup the local server.
-            Everything gets bundled into a new "dist" folder.
-        </li>
-    </ol>
+    <p class="stright-from-sass">Text that's styled straight from the referenced SCSS file.</p>
 
-    <p class="stright-from-sass">And damn it's fast!</p>
-
-    <p>
-        If you read the documentation you'll see both "parcel" and "parcel-bunder" packages references.
-        Wondering waht the difference is? Me too. I searched "npm install parcel-bundler vs parcel" 
-        and come across <a href="https://github.com/parcel-bundler/parcel/issues/2360">https://github.com/parcel-bundler/parcel/issues/2360</a>
-    </p>
+    <p>Check the browser console to see output from the main.js which imported from maths-module.js</p>
 
 
-
+    <p>Will an image be packaged? You bet!</p>
     <img src="images/23569861-sample-grunge-red-round-stamp.jpg" style="max-width: 400px;">
 
 

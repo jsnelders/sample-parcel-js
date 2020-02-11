@@ -1,0 +1,7 @@
+@import './main.scss';
+
+body
+{
+    background-color: black;
+    color: white;
+}

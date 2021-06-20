@@ -1,3 +1,7 @@
+20 July 2021: Respository is now obsolete and archived.
+
+---
+
 # Parcel.js Sample Project
 
 For the Parcel project at [https://parceljs.org/](https://parceljs.org/).
